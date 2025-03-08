@@ -1,0 +1,11 @@
+### CEP inválido
+GET  http://localhost:8080/consulta-temperatura-por-cep?cep=2503553244
+
+### CEP não existe
+GET  http://localhost:8080/consulta-temperatura-por-cep?cep=25035532
+
+### CEP válido
+GET  http://localhost:8080/consulta-temperatura-por-cep?cep=25035530
+
+### CEP válido
+GET  http://localhost:8080/consulta-temperatura-por-cep?cep=24921692
