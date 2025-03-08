@@ -9,3 +9,16 @@ GET  http://localhost:8080/consulta-temperatura-por-cep?cep=25035530
 
 ### CEP válido
 GET  http://localhost:8080/consulta-temperatura-por-cep?cep=24921692
+
+
+### CEP inválido CLOUD RUN
+GET https://lab-desafio-01-400779879799.us-central1.run.app/consulta-temperatura-por-cep?cep=2503553244
+
+### CEP não existe CLOUD RUN
+GET https://lab-desafio-01-400779879799.us-central1.run.app/consulta-temperatura-por-cep?cep=25035532
+
+### CEP válido CLOUD RUN
+GET https://lab-desafio-01-400779879799.us-central1.run.app/consulta-temperatura-por-cep?cep=25035530
+
+### CEP válido CLOUD RUN
+GET https://lab-desafio-01-400779879799.us-central1.run.app/consulta-temperatura-por-cep?cep=24921692

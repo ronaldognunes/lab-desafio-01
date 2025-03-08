@@ -35,11 +35,14 @@ Testes automatizados demonstrando o funcionamento.
 Utilize docker/docker-compose para que possamos realizar os testes de sua aplicação.
 Deploy realizado no Google Cloud Run (free tier) e endereço ativo para ser acessado.
 
-## Execução
+## Execução com docker
 1. Executar o docker-compose 
 ```
 docker compose up --build
 ```
-2. Executar as requisições do arquivo teste.http que está dentro da pasta api.
+2. Executar as requisições com a rota 'localhost' do arquivo teste.http que está dentro da pasta api.
 
+## Execução no cloud run 
+1. Executar as requisições com a rota que contem o comentário cloud run do arquivo teste.http que está dentro da  pasta api. 
 
+<b>obs: Na consulta da temperatura ao informar a localidade tive que realizar o tratamento da localidade para retirar os acentos, pois quando possui acentuação a api não encontra a localidade.</b>
